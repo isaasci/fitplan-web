@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="FitPlan uygulamasının gizlilik politikası ve verilerin nasıl işlendiği hakkında bilgi.">
+<title>FitPlan – Gizlilik Politikası</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --primary: #39ff14;
+    --bg: #111111;
+    --card: #1b1b1b;
+    --text: #f5f5f5;
+    --muted: #b7b7b7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  header {
+    background: #080808;
+    border-bottom: 1px solid rgba(57, 255, 20, 0.28);
+    padding: 40px 20px 32px;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 8px; color: var(--primary); font-size: 30px; }
+  header p { margin: 0; color: var(--muted); }
+  main {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid #2b2b2b;
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+  }
+  h2 {
+    color: var(--primary);
+    margin: 0 0 12px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(57, 255, 20, 0.45);
+    padding-bottom: 7px;
+  }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 7px; }
+  strong { color: #b4ff9f; }
+  a { color: var(--primary); }
+  .notice { color: var(--muted); font-size: 14px; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    padding: 20px;
+    font-size: 14px;
+  }
+  @media (max-width: 480px) {
+    header { padding-top: 32px; }
+    section { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>FitPlan</h1>
+  <p>Gizlilik Politikası • Son güncelleme: 2026-11-05</p>
+</header>
+<main>
+  <section>
+    <h2>1. İşlenen Veriler</h2>
+    <p>FitPlan hesap oluşturmadan kullanılabilir. Uygulama, özelliklerini sunmak ve tercihlerinizi cihazınızda saklamak için girdiğiniz şu bilgileri işler:</p>
+    <ul>
+      <li>Profil bilgileri: ad veya hitap tercihi, yaş, boy, kilo, fitness hedefi, deneyim seviyesi, ekipman ve haftalık hedefler</li>
+      <li>Oluşturduğunuz antrenmanlar, planlar ve takvim tercihleri</li>
+      <li>Egzersiz favorileri, aktif antrenman oturumu, tamamlanan çalışmalar ve ilerleme kayıtları</li>
+      <li>Bir plan için hatırlatma açarsanız seçtiğiniz gün ve saat</li>
+    </ul>
+    <p>Plan oluşturma sırasında sağlık durumuyla ilgili seçebileceğiniz risk yanıtı kişiselleştirme akışında geçici olarak kullanılır; kaydedilmez.</p>
+    <p>Uygulama, bu bilgileri bir FitPlan hesabına veya FitPlan sunucusuna göndermez. Uygulama kullanım analitiği, reklam takibi veya uygulama içi reklam kullanılmaz.</p>
+  </section>
+
+  <section>
+    <h2>2. İzinler ve Kullanım Amaçları</h2>
+    <ul>
+      <li><strong>Bildirimler:</strong> Yalnızca izin verirseniz ve hatırlatma etkinleştirilmiş bir planınız varsa cihazınızda yerel antrenman hatırlatmaları planlanır. Bildirim izni isteğe bağlıdır.</li>
+      <li><strong>İnternet (Android):</strong> Android uygulama kabuğu/WebView çalışma ortamı için bildirilir. FitPlan’ın antrenman ve plan verileri internet üzerinden bir FitPlan sunucusuna gönderilmez; temel özellikler çevrimdışı kullanılabilir.</li>
+      <li><strong>Dosya seçimi:</strong> Yalnızca siz yedek geri yükleme işlemini başlattığınızda seçtiğiniz JSON dosyası okunur. Uygulama fotoğraf veya genel dosya arşivinize erişim istemez.</li>
+    </ul>
+    <p>FitPlan kamera, fotoğraf arşivi, konum, kişiler, sağlık platformları veya biyometrik veri izinlerini istemez. Bildirim izni verilmediğinde plan hatırlatmaları çalışmaz; diğer özellikler kullanılmaya devam eder.</p>
+  </section>
+
+  <section>
+    <h2>3. Veri Saklama ve Güvenlik</h2>
+    <ul>
+      <li>Mobil uygulamada kullanıcı kayıtları cihazdaki SQLite veritabanında; web önizlemesinde ise tarayıcı yerel depolamasında tutulur.</li>
+      <li>FitPlan hesabı veya FitPlan tarafından işletilen bir bulut veri tabanı yoktur.</li>
+      <li>Ayarlar bölümündeki yedekleme özelliği, seçtiğinizde verilerinizi JSON dosyası olarak dışa aktarır. Dosyanın kaydedileceği yer ve sonrasında paylaşılması cihazınızın işletim sistemi ve sizin tercihlerinize bağlıdır.</li>
+      <li>Android veya iOS cihaz yedekleme ayarları uygulama verilerini yedekleyebilir ya da başka bir cihaza aktarabilir. Bu davranış FitPlan’dan ziyade işletim sistemi ve cihaz yedekleme tercihleri tarafından yönetilir.</li>
+      <li>Uygulama içindeki verileri Ayarlar bölümünden sıfırlayabilirsiniz. Dışa aktarılmış dosyalar ve işletim sistemi yedekleri ayrıca silinmelidir.</li>
+    </ul>
+    <p>Verilerin cihazda saklanması, cihazın kilidi, yedekleri ve erişim güvenliği üzerindeki sorumluluğu ortadan kaldırmaz. Cihazınızı ve dışa aktardığınız yedekleri korumanızı öneririz.</p>
+  </section>
+
+  <section>
+    <h2>4. Paylaşım</h2>
+    <p>FitPlan verilerinizi kendiliğinden üçüncü taraflarla paylaşmaz. Yedek dosyası oluşturup işletim sisteminin paylaşım veya dosya kaydetme seçeneklerini kullanırsanız, dosya sizin seçtiğiniz uygulama ya da konuma aktarılır. Bu aktarımın ve alıcının gizlilik uygulamaları FitPlan’ın kontrolünde değildir.</p>
+  </section>
+
+  <section>
+    <h2>5. Üçüncü Taraf Hizmetler</h2>
+    <p>FitPlan’da reklam, analiz veya kullanıcı davranışı izleme hizmeti kullanılmaz. Hatırlatmalar cihazın yerel bildirim sistemi tarafından gösterilir; uzaktaki bir bildirim sunucusuna ihtiyaç duymaz.</p>
+    <p>Uygulama mağazaları, işletim sistemi ve cihaz üreticisi kendi hizmetleri kapsamında teknik verileri işleyebilir. Bunlar ilgili platform sağlayıcılarının gizlilik politikalarına tabidir.</p>
+  </section>
+
+  <section>
+    <h2>6. Çocukların Gizliliği</h2>
+    <p>FitPlan çocuklara özel olarak tasarlanmamıştır. Uygulama hesap veya çevrimiçi profil oluşturmaz; kullanıcı tarafından girilen profil bilgileri cihazda saklanır. Reşit olmayan kişilerin uygulamayı ebeveyn veya yasal temsilci gözetiminde kullanması önerilir.</p>
+  </section>
+
+  <section>
+    <h2>7. Kalori Bilgileri ve Sağlık Uyarısı</h2>
+    <p>Uygulamada gösterilen kalori değerleri egzersiz türü, tahmini MET değeri, girilen kilo ve etkin süreye dayalı yaklaşık hesaplardır. Tıbbi ölçüm, sağlık değerlendirmesi veya kişiye özel tıbbi tavsiye değildir. Egzersize başlamadan önce sağlık durumunuzla ilgili bir uzmana danışın.</p>
+  </section>
+
+  <section>
+    <h2>8. Değişiklikler</h2>
+    <p>Uygulamanın özellikleri veya geçerli gereklilikler değişirse bu politika güncellenebilir. Güncel sürüm ve tarihi bu sayfada yayımlanır.</p>
+  </section>
+
+  <section>
+    <h2>9. İletişim</h2>
+    <p>Gizlilikle ilgili sorularınız veya talepleriniz için:<br>
+      E-posta: <strong>[Yayın öncesinde geliştirici destek e-postasını ekleyin]</strong><br>
+      Uygulama: FitPlan (App Store / Google Play)</p>
+    <p class="notice">Yayınlamadan önce köşeli parantez içindeki e-posta yer tutucusunu gerçek ve takip edilen bir iletişim adresiyle değiştirin.</p>
+  </section>
+</main>
+<footer>© 2026 FitPlan • Gizlilik Politikası</footer>
+</body>
+</html>
